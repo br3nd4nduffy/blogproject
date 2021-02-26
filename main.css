@@ -1,0 +1,65 @@
+@import "small-screen.css";
+@import "large-screen.css";
+@import "blog-post.css";
+
+html {
+    font-family: 'Shanti', sans-serif;
+    background-color: #fbf8ee;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: #22224f;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+p {
+    color: #473c8b;
+}
+
+body {
+    width: 90%;
+    margin: auto;
+}
+
+
+#page-title {
+    padding: 5px;
+    color: #ddffff;
+    font-size: 2em;
+}
+
+a#page-title:hover {
+    color:#22224f;
+    text-decoration: none;
+}
+
+.avatar {
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    display: block;
+    margin: auto;
+}
+
+.card {
+    height: 300px;
+    border-radius: 10px;
+}
+
+#card-pic {
+    height: 70px;
+}
